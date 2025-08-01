@@ -1,1 +1,1 @@
-# sosp25-artifact
+# Atmosphere: Practical Verified Kernels with Rust and Verus
