@@ -15,6 +15,7 @@ The general steps include:
 
 ## Verification time/line count and system call microbenchmarks
 https://github.com/mars-research/atmosphere/tree/AE-verification-bench-%2B-syscall_benchs
+README.md contains the tutorial for setting up `nix` as well as how to run benchmarks
 
 ## NVEM benchmarks
 There are three different configs for the NVME benchmarks. We've created a different branch for each config.
