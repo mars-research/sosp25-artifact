@@ -33,7 +33,7 @@ fallocate -l100G nvme.img
 ```
 Run the kernel, and the kernel will start the benchmark automatically
 ```
-atmo run --release --nvme-img="$PWD/nvme.img"
+atmo run --release --iommu --nvme-img="$PWD/nvme.img"
 ```
 To change the batch size, change `batch_sz` variable under `dom0/src/nvme_client.rs` to `1` or `32`. The batch size is currently hardcoded; we apologize for the inconvenience.
 
